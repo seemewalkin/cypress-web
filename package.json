@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "./node_modules/.bin/cypress open",
-    "cy:run": "./node_modules/.bin/cypress run --browser chrome --spec 'cypress/integration/specs/*.js' --reporter mochawesome",
+    "cy:run": "./node_modules/.bin/cypress run --browser chrome --spec 'cypress/integration/specs/*.js'",
     "merge:report": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
     "convert:jsontohtml": "marge cypress/report/output.json --reportDir ./ --inline",
     "WithReport": "npm-run-all cy:run merge:report convert:jsontohtml"
