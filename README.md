@@ -7,6 +7,7 @@ Demo-cypress project with the automated test suites for creation and updating of
 ## Installation
 - Install <a href="http://nodejs.org/">Node</a> (v10.x.x or later).
 - Install <a href ="https://www.npmjs.com/">npm</a> 
+
 ```npm i``` to install the project dependencies
 ```npm run WithReport``` - to run all the test suites from integration/pages/specs folder and produce the output.html report
 ```npm run cy:run``` - to run all the test suites from integration/pages/specs folder. Once you execute the command, new instance of the Chrome browser should be opened and all the run of the test suites for the website: http://computer-database.herokuapp.com/  should be visible in Chrome-browser instance. 
