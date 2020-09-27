@@ -6,7 +6,7 @@ const listViewPage = new ListViewPage();
 const computerName = "what"
 const computerName2= "what1"
 
-describe('Creation of computer page', function () {
+describe('Creation of computer on computer creation page', function () {
 
   beforeEach(function () {
     creationPage.proceedOnComputersPage();
