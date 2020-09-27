@@ -27,6 +27,7 @@ Pros:
 - No need with explicit or implicit waits wrappers, since Cypress waits automatically for assertions
 - Easy set-up both locally and on CI.
 - It's faster than Selenium-Webdriver sollutions 
+
 Cons:
 - Cypress is Javascript only, while Selenium-based framework allows you to write tests on all of the popular languages (java, ruby, python, C#)
 - Limited support for iFrames (didn't test it yet, but could be essential)
